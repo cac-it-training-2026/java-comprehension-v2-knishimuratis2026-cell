@@ -24,6 +24,8 @@ class NumberList {
 		//TODO ここから実装する
 		for (int i = 0; i <= limit; i++) {
 			numbers.add(i + 1);
+			
+			a
 
 		}
 	}
