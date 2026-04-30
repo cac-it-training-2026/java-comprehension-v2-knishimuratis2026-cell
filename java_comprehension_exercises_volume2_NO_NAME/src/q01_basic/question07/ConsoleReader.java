@@ -1,5 +1,13 @@
 package q01_basic.question07;
 
-public class ConsoleReader {
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
+public class ConsoleReader {
+	public int inputNumber() throws IOException, NumberFormatException {
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+		int i = Integer.parseInt(reader.readLine());
+		return i;
+	}
 }
